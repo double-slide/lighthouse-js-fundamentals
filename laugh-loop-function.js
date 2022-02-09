@@ -1,14 +1,14 @@
-function laugh(numLaughs) {
+function laugh(num) {
   
-  let laugh = "";
+  let laughter = "";
 
-  for (let i = 0; i <= numLaughs - 1; i++) {
-    laugh += "ha";
+  for (let i = 0; i <= num - 1; i++) {
+    laughter += "ha";
   }
 
-  laugh += "!";
+  laughter += "!";
 
-  return laugh;
+  return laughter;
 }
 
 console.log(laugh(10));
