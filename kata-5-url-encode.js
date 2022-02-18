@@ -7,17 +7,18 @@
 
 // iaan's master plan
 // function receives string 'text'
-// initiate oldString = text
 // initiate newString = ""
+// init start index
+// init end index
 // check for whitespace character at front end and back end of oldString 
   // if (oldString[0] == " ")
-    // oldString.splice(0, 1)
+    // increment start index by 1   
   // if (oldString[oldString.length-1] == " ")
-    // oldString.splice((oldString.length-1), 1)
-// create for loop equal to length of oldString
+    // decrease end index by 1
+  // create for loop equal to length of oldString
   // cycle through and use if statement on each character
-    // if whitespace, newString.push "%20"
-    // if character. newstring.push(character)
+    // if whitespace, newString += "%20"
+    // if character. newstring += character
   // end for loop
 // return newString
 
