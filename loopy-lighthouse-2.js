@@ -17,3 +17,5 @@ for (let x = 100; x <= 200; x++) {
 // new challenge--wrap this code into a function called loopyLighthouse(range, multiples, words)
 // range is array of numbers representing start/end of the loop
 // multiples should be array of 2 numbers 
+
+function 
